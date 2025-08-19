@@ -1,0 +1,47 @@
+@import"../../variable.scss";
+
+////////////////////// section-4 /////////////////////////////////////////////////////////
+table, td, th {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  //////////////////// section-5 ///////////////////////////
+
+.questions
+{
+
+
+    .ques{
+        
+        width: 280px;
+        min-height: 170px;
+        margin: 20px;
+        padding: 20px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: $white;
+    }
+}
+
+
+/////////////////////// section-6 /////////////////////////////////////////////////////////
+
+.box{
+    
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+.box1{
+    border: 3px solid $blue;
+}
+
+.box2{
+    border: 3px solid $medium-blue;
+}

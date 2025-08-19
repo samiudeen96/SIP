@@ -1,0 +1,278 @@
+@import "../../variable.scss";
+
+
+//////////////////// section-1 ///////////////////////////
+.ring{
+  transform: rotate(-11deg);
+}
+.ring-cirlce1,.ring-cirlce2,.ring-cirlce3,.ring-cirlce4,.ring-cirlce5
+{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid $white;
+    color: #fff;
+    box-shadow: 0px 0px 10px #00000029;
+    cursor: pointer;
+}
+.ins-txt1{
+  transform: rotate(-47deg);
+  position: absolute;
+  top: 92px;
+  left: 86px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.ins-txt2{
+  transform: rotate(43deg);
+    position: absolute;
+    top: 91px;
+    left: 340px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.ring-cirlce1
+{
+  position: absolute;
+    top: -25px;
+    left: 163px;
+    background-color: $blue;
+    
+    
+}
+
+.ring-cirlce2
+{
+  position: absolute;
+  top: 139px;
+  left: 1px;
+  background-color: $yellow;
+  
+    
+}
+
+.ring-cirlce3
+{
+  position: absolute;
+  top: 139px;
+  left: 341px;
+  background-color: $medium-blue;
+  border: 5px solid #c00000;
+    
+}
+
+.ring-cirlce4
+{
+  position: absolute;
+    top: 322px;
+    left: 87px;
+    background-color: $green;
+    border: 5px solid #c00000;
+}
+
+.ring-cirlce5
+{
+  position: absolute;
+  top: 325px;
+  left: 258px;
+    background-color: $light-blue;
+    border: 5px solid #c00000;
+}
+
+.plan,.Assess,.Design,.Administer,.Implement
+{
+  color: #fff;
+  padding: 20px;
+  border: 5px solid $white;
+  width: 395px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  position: absolute;
+}
+
+.plan
+{
+  background-color: $blue;
+  top: -36px;
+  left: 486px;
+  }
+
+  .Assess
+{
+  background-color: $yellow;
+  top: 96px;
+  left: -401px;
+  }
+
+  .Design
+  {
+    background-color: $medium-blue;
+    top: 80px;
+    left: 486px;
+    border: 5px solid #c00000;
+    }
+
+    .Administer
+    {
+      background-color: $green;
+      top: 228px;
+      left: -401px;
+      border: 5px solid #c00000;
+      }
+
+      .Implement
+  {
+    background-color: $light-blue;
+    top: 228px;
+    left: 486px;
+    border: 5px solid #c00000;
+    }
+
+      .img-bg{
+        width: 714px;
+      }
+
+     .mt-15{
+       margin-top: 150px;
+     }
+
+//  .t1
+//  {
+//   position: absolute;
+//   transform: rotate(-412deg);
+//   font-size: 26px;
+//   font-weight: bold;
+//   top: 80px;
+//   left: 63px;
+//   color: #585858;
+//  }
+
+//  .t2
+//  {
+//   position: absolute;
+//     transform: rotate(408deg);
+//     font-size: 26px;
+//     font-weight: bold;
+//     top: 82px;
+//     right: 59px;
+//     color: #585858;
+//  }
+
+// .l-b1 {
+//   background-color: $blue;
+// }
+
+// .l-b2 {
+//   background-color: $yellow;
+// }
+
+// .l-b3 {
+//   background-color: $medium-blue;
+// }
+
+// .l-b4 {
+//   background-color: $green;
+// }
+
+// .l-b5 {
+//   background-color: $light-blue;
+// }
+
+// .l-box1,.l-box2,.l-box3,.l-box4,.l-box5
+// {
+//   position: absolute;
+//   border-radius: 20px;
+//   border: 5px solid #ffffff;
+//   box-shadow: 0 14px 26px rgb(0 0 0 / 30%);
+//   color: #ffffff;
+//   width: 364px;
+//   padding: 10px;
+// }
+
+// .l-box1 
+// {
+//   top: -100px;
+//   left: 187px
+// }
+
+// .l-box2
+// {
+//   top: 145px;
+//   left: -100px;
+// }
+
+// .l-box3
+// {
+//   top: 145px;
+//   left: 506px;
+//   border: 5px solid #c00000;
+// }
+
+// .l-box4
+// {
+//   top: 460px;
+//     left: -30px;
+//     border: 5px solid #c00000;
+// }
+
+// .l-box5
+// {
+//   top: 460px;
+//   left: 385px;
+//   border: 5px solid #c00000;
+// }
+
+
+// .txt-160
+// {
+//     width: 160px;
+// }
+
+
+/////////////////////// section-4 /////////////////////////////////////////////////////////
+.card {
+    width: 250px;
+    min-height: 190px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 14px 26px rgb(0 0 0 / 10%);
+  
+    .card-text {
+      padding-top: 20px;
+    }
+  }
+
+  /////////////////////// section-5 /////////////////////////////////////////////////////////
+
+  .table1{
+
+    display: flex;
+    justify-content: center;
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+
+      .bg-blue {
+        background-color: $blue;
+        color: $white;
+        text-align: center;
+      }
+
+      .bg-mblue {
+        background-color: $medium-blue;
+        color: $white;
+        text-align: center;
+      }
+
+      .bg-lblue {
+        background-color: $light-blue;
+        color: $white;
+        text-align: center;
+      }
+  }

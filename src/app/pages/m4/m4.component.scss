@@ -1,0 +1,247 @@
+
+@import "../../variable.scss";
+
+
+//////////////////// section-1 ///////////////////////////
+.ring{
+    transform: rotate(-11deg);
+  }
+  .ring-cirlce1,.ring-cirlce2,.ring-cirlce3,.ring-cirlce4,.ring-cirlce5
+  {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 5px solid $white;
+      color: #fff;
+      box-shadow: 0px 0px 10px #00000029;
+      cursor: pointer;
+  }
+  .ins-txt1{
+    transform: rotate(-47deg);
+    position: absolute;
+    top: 92px;
+    left: 86px;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  
+  .ins-txt2{
+    transform: rotate(43deg);
+      position: absolute;
+      top: 91px;
+      left: 340px;
+      font-size: 19px;
+      font-weight: bold;
+  }
+  .ring-cirlce1
+  {
+    position: absolute;
+      top: -25px;
+      left: 163px;
+      background-color: $blue;
+      
+      
+  }
+  
+  .ring-cirlce2
+  {
+    position: absolute;
+    top: 139px;
+    left: 1px;
+    background-color: $yellow;
+    
+      
+  }
+  
+  .ring-cirlce3
+  {
+    position: absolute;
+    top: 139px;
+    left: 341px;
+    background-color: $medium-blue;
+    border: 5px solid #c00000;
+      
+  }
+  
+  .ring-cirlce4
+  {
+    position: absolute;
+      top: 322px;
+      left: 87px;
+      background-color: $green;
+      
+  }
+  
+  .ring-cirlce5
+  {
+    position: absolute;
+    top: 325px;
+    left: 258px;
+      background-color: $light-blue;
+  }
+  
+  .plan,.Assess,.Design,.Administer,.Implement
+  {
+    color: #fff;
+    padding: 20px;
+    border: 5px solid $white;
+    width: 395px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    position: absolute;
+  }
+  
+  .plan
+  {
+    background-color: $blue;
+    top: -36px;
+    left: 486px;
+    }
+  
+    .Assess
+  {
+    background-color: $yellow;
+    top: 96px;
+    left: -401px;
+    }
+  
+    .Design
+    {
+      background-color: $medium-blue;
+      top: 80px;
+      left: 486px;
+      border: 5px solid #c00000;
+      }
+  
+      .Administer
+      {
+        background-color: $green;
+        top: 228px;
+        left: -401px;
+        }
+  
+        .Implement
+    {
+      background-color: $light-blue;
+      top: 228px;
+      left: 486px;
+      }
+  
+//////////////////// section-4 ///////////////////////////
+
+table, th, td { 
+    border: 3px solid $white;
+    border-collapse: collapse;
+    text-align: left;
+  }
+
+
+table
+{
+    td
+{
+    background-color: #eaebeb;
+}
+
+  .bg-blue
+{
+  background-color: $blue;
+  text-align: center;
+  color: #fff;
+}
+.bg-lblue
+{
+  background-color: $light-blue;
+  text-align: center;
+  color: #fff;
+}
+}
+
+
+
+
+//////////////////// section-5 ///////////////////////////
+.border-g
+{
+    border-radius: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-lb
+{
+    border-radius: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hw{
+    height: 100px;
+    width: 100px;
+}
+
+.h-120
+{
+  height: 200px;
+  // width: 100px;
+}
+
+.h-90
+{
+  height: 120px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.num
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background-color: $blue;
+    top: -28px;
+    left: 0px;
+    border-radius: 5px;
+}
+
+.flex-container{
+    
+    border: 2px solid $blue;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+//////////////////// section-6 ///////////////////////////
+
+.table0
+{
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+    padding: 3px;
+    
+  }
+
+  th, td {
+    background-color: #d9d9d9;
+  }
+
+  table{
+    width: 100%;
+    
+  }
+  .bg-blue{
+    background-color: $blue;
+    color: #fff;
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../variable.scss";
+
+.accordion-button:not(.collapsed) {
+  background-color: $light-blue;
+  color: $white;
+  
+}
+
+.accordion-button:hover {
+  background-color: $light-blue;
+  color: $white;
+  
+}
+
+.accordion-button{
+  background-color: $white;
+  color: #000;
+  border: 1px solid $light-blue;
+}
+
+.accordion-item
+{
+  background-color: $white;
+  color: #000;
+}

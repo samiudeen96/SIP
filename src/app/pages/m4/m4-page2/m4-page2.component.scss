@@ -1,0 +1,283 @@
+@import "../../../variable.scss";
+
+//////////////////// section-1 ///////////////////////////
+.border-g
+{
+    border-radius: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-lb
+{
+    border-radius: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hw{
+    height: 100px;
+    width: 100px;
+}
+
+.h-120
+{
+  height: 200px;
+//   width: 100px;
+}
+
+.h-90
+{
+  height: 120px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.num
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background-color: $yellow;
+    top: -28px;
+    left: 0px;
+    border-radius: 5px;
+}
+
+.num1
+{ 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background-color: #b8bfbf;
+    top: -28px;
+    left: 0px;
+    border-radius: 5px;
+}
+
+.flex-container{
+    
+    border: 2px solid $blue;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+
+
+//////////////////// section-2 ///////////////////////////
+
+.table1
+{
+    table, td, th {
+        border: 3px solid $white;
+        padding: 10px;
+      }
+      
+      table {
+        width: 450px;
+        height: 350px;
+        border-collapse: collapse;
+      }
+
+      .bg-mblue
+      {
+          background-color: $light-blue;
+      }
+
+      td{
+        background-color: #E8F1F5;
+      }
+      
+}
+
+
+.gap
+{
+    gap: 20px;
+}
+
+.h-333{
+    height: 333px;
+}
+
+
+.table
+{
+    table, td, th {
+        border: 3px solid $white;
+      }
+      
+      table {
+        border-collapse: collapse;
+      }
+
+      .bg-mblue
+      {
+          background-color: $light-blue;
+      }
+
+      td{
+        background-color: #E8F1F5;
+      }
+}
+
+.triangle-right1 {
+    width: 0;
+    height: 0;
+    border-top: 90px solid transparent;
+    border-left: 40px solid $light-blue;
+    border-bottom: 90px solid transparent;
+}
+//////////////////// section-3 ///////////////////////////
+
+.table3
+{
+    table, td, th {
+        border: 3px solid $white;
+        padding: 5px;
+        vertical-align: top;
+      }
+      .bg-lblue
+      {
+          background-color: $light-blue;
+          color: #fff;
+      }
+
+      td{
+        background-color: #E8F1F5;
+      }
+}
+
+.box
+{
+    width: 600px;
+    height: 500px;
+    background-color: $light-blue;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6
+{
+    color: #fff;
+    position: absolute;  
+}
+
+.txt1
+{
+    top: 35px;
+    left: 160px;
+}
+
+.txt2
+{
+    top: 100px;
+    left: 186px;
+}
+
+.txt3
+{
+    top: 144px;
+    left: 190px;
+}
+
+.txt4
+{
+    top: 177px;
+    left: 214px;
+    font-size: 10px;
+    width: 89px;
+}
+
+.txt5
+{
+    top: 141px;
+    left: 308px;
+    width: 89px;
+    transform: rotate(-45deg);
+    
+}
+
+.txt6
+{
+    top: 38px;
+    left: 413px;
+    width: 89px;
+    transform: rotate(-45deg);
+    
+}
+
+
+//////////////////// section-3 ///////////////////////////
+
+.card
+{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/////////////////////// section-10 ///////////////////////
+
+
+.table4
+{
+    table, td, th {
+        border: 3px solid $white;
+        padding: 5px;
+      }
+      .bg-lblue
+      {
+          background-color: $light-blue;
+          color: #fff;
+      }
+
+      td{
+        background-color: #E8F1F5;
+        vertical-align: top;
+      }
+
+
+}
+
+/////////////////////// section-11 ///////////////////////
+
+.table5
+{
+    table, td, th {
+        border: 3px solid $white;
+        padding: 5px;
+      }
+      .bg-lblue
+      {
+          background-color: $light-blue;
+          color: #fff;
+      }
+
+      td{
+        background-color: #E8F1F5;
+      }
+
+      .b-dashed{
+        background-color:$blue;
+        color: #fff;
+      }
+}
+
+.table6
+{
+    table, td, th {
+        border: 1px solid black;
+        padding: 5px;
+      }
+}

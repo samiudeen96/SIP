@@ -1,0 +1,370 @@
+@import "../../../variable.scss";
+
+//////////////////// section-1 ///////////////////////////
+.border-g
+{
+    border-radius: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-lb
+{
+    border-radius: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hw{
+    height: 100px;
+    width: 100px;
+}
+
+.h-120
+{
+  height: 200px;
+//   width: 100px;
+}
+
+.h-90
+{
+  height: 120px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.num
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background-color: $yellow;
+    top: -28px;
+    left: 0px;
+    border-radius: 5px;
+}
+
+.num1
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background-color: #b8bfbf;
+    top: -28px;
+    left: 0px;
+    border-radius: 5px;
+}
+
+.flex-container{
+    
+    border: 2px solid $blue;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+
+
+// .content
+// {
+//     background-color: $blue;
+//     color: $white;
+// }
+
+.table1
+{
+    table, td, th {
+        border: 3px solid $white;
+        vertical-align: top;
+        padding: 10px;
+      }
+      
+      table {
+        width: 450px;
+        height: 350px;
+        border-collapse: collapse;
+        
+      }
+
+      .bg-mblue
+      {
+          background-color: $medium-blue;
+      }
+
+      td{
+        background-color: #b8bfbf;
+      }
+}
+
+.gap
+{
+    gap: 20px;
+}
+
+.h-333{
+    height: 333px;
+}
+
+.border-dashed
+{
+    border-style: dashed;
+    border-color: $yellow;
+}
+
+
+.table
+{
+    table, td, th {
+        border: 3px solid $white;
+      }
+
+     
+
+      td{
+          vertical-align: top;
+      }
+      
+      table {
+        width: 633px;
+        border-collapse: collapse;
+      }
+
+      .bg-mblue
+      {
+          background-color: $medium-blue;
+      }
+
+      td{
+        background-color: #b8bfbf;
+      }
+
+      .arr1, .arr2
+      {
+        position: absolute;
+        width: 51px;
+      }
+
+      .arr1{
+        top: -6px;
+        left: 139px;
+      }
+
+      .arr2{
+        top: -6px;
+        left: 225px;
+      }
+}
+
+
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: smaller;
+}
+
+.c1{
+    
+    top: -35px;
+    left: 120px;
+    background-color: $green;
+}
+
+.c2{
+    
+    top: 70px;
+    left: -35px;
+    background-color: $green;
+}
+
+.c3{
+    
+    top: 203px;
+    left: -20px;
+    background-color: $green;
+}
+
+
+.c4{
+    
+    top: 285px;
+    left: 120px;
+    background-color: $green;
+}
+
+.c5{
+    
+    top: 203px;
+    right: -20px;
+    background-color: $green;
+}
+
+
+.c6{
+    
+    top: 70px;
+    right: -35px;
+    background-color: $green;
+}
+
+.c7{
+    
+    top: 125px;
+    left: 120px;
+    background-color: $blue;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6{
+    text-shadow: -1px -1px 0 $green, 1px -1px 0 $green, -1px 1px 0 $green, 1px 1px 0 $green;
+}
+
+.table4
+{
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        
+      }
+
+      table{
+        text-align: center;
+      }
+
+      .th-white
+      {
+        background-color: #fff;
+        border-top-color: #fff;
+        border-left-color: #fff;
+    }
+
+    .f-bold{
+        font-weight: bold;
+    }
+      
+
+      .b-r
+        {
+            border-right-color: red;
+        }
+
+        .b-t
+        {
+            border-top-color: red;
+        }
+
+        .b-b
+        {
+            border-bottom-color: red;
+        }
+
+        .b-l
+        {
+            border-left-color: red;
+        }
+
+        th{ 
+            background-color: $green;
+            color: $white;
+        }
+
+        .bg-green
+        {
+            color: $white;
+            background-color: $green;
+        }
+
+        .bg-mblue
+        {
+            color: $white;
+            background-color: #33919a;
+        }
+        .bg-blue
+        {
+            color: $white;
+            background-color: $blue;
+        }
+
+        .bg-gray1{
+            background-color: #eaeee7;
+        }
+
+        .bg-gray2{
+            background-color: #d3dbcc;
+        }
+        .bg-gray3{
+            background-color: #d0d0ce;
+        }
+        .bg-gray4{
+            background-color: #e7eced;
+        }
+        
+
+        .bg-lblue{
+            background-color: $light-blue;
+            color: $white;
+        }
+
+        .bg-yellow{
+            background-color: #f6f7c9;
+        }
+        .bg-lblue2{
+            background-color: #cbd6d8;
+        }
+        .bg-lblue3{
+            background-color: #9ae5db;
+        }
+        .bg-lblue4{
+            background-color: #1dbdff;
+        }
+        .bg-lblue5{
+            background-color: #69d3ff;
+        }
+        .bg-lblue6{
+            background-color: #b4e9ff;
+        }
+        .bg-yellow2{
+            background-color: #edee94;
+        }
+
+        .bg-lgreen{
+            background-color: #d3dbcc;
+        }
+
+        .bg-lgreen2{
+            background-color: #67d8c8;
+        }
+
+        
+
+       
+}
+
+.triangle-right1 {
+    width: 0;
+    height: 0;
+    border-top: 90px solid transparent;
+    border-left: 40px solid $light-blue;
+    border-bottom: 90px solid transparent;
+}
+
+/////new
+

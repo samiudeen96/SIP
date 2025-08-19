@@ -1,0 +1,75 @@
+<nav class="navbar  fixed-top" [class.bgColor]="this.router.url !== '/'">
+  <div class="container">
+    <div class="logo" (click)="goToPage('')" >
+      <img src="assets/images/Cargill.png"  [hidden]="this.router.url == '/'">
+    </div>
+
+    <div class="d-flex">
+      <div class="g-translate pe-5">
+        <div id="google_translate_element"></div>
+      </div>
+      <div >
+        <a [hidden]="this.router.url == '/'" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="" (click)="closemenubutton = false"><img src="assets/images/ham.svg"></span>
+        </a>
+      </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+
+
+        <div id="icon" class="Icon" [ngClass]="{'open' : this.closemenubutton == true}" data-bs-dismiss="offcanvas"
+          aria-label="Close" (click)="closemenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!--<div id="icon" class="Icon open"  data-bs-dismiss="offcanvas" aria-label="Close"  *ngIf = "closemenubutton == true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>-->
+
+        <!-- <div class="outer">
+          <div class="inner" data-bs-dismiss="offcanvas" aria-label="Close">
+            <label>Back</label>
+          </div>
+        </div>        -->
+        <!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+      </div>
+      <div class="offcanvas-body">
+
+        <!-- <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" >
+          <li class="nav-item" *ngFor="let item of this.service.menuDetails; let i = index">
+            {{item.volumeTitle}}
+            <ul>
+              <li *ngFor="let menu of item.pages; let j = index">
+                <a class="nav-link active " routerLink="{{menu.path}}" routerLinkActive="active-link" [ngClass] = "{'disabled' : !menu.path && menu.path !== ''}" > {{menu.title}}
+                </a>
+              </li>
+            </ul>
+          </li> 
+        </ul> -->
+
+
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item" *ngFor="let item of this.service.menuDetails; let i = index">
+
+            <div class="pt-3 f-20">{{item.volumeTitle}}</div>
+            <!-- <div class="">{{item.intro}}</div> -->
+            <ul class="list">
+              <li *ngFor="let menu of item.pages; let j = index" data-bs-dismiss="offcanvas" aria-label="Close">
+                <a class="" routerLink="{{menu.path}}" routerLinkActive="active-link"
+                  [ngClass]="{'disabled' : !menu.path && menu.path !== ''}"> {{menu.title}}
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,259 @@
+@import "../../variable.scss";
+
+//////////////////// section-2 ///////////////////////////
+
+.questions
+{
+
+
+    ol li{
+        
+        width: 700px;
+        margin-top: 20px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: $white;
+    }
+}
+
+
+//////////////////// section-3 ///////////////////////////
+.bluebox
+{
+    background-color: $blue;
+    color: $white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 200px;
+    min-height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.redbox
+{
+    background-color: #c00000;
+    color: $white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.para
+{
+    width: 807px;
+}
+
+//////////////////// section-4 ///////////////////////////
+.table1
+{
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 15px;
+      }
+
+     .bg-blue{
+            background-color: $blue;
+            color: $white;
+            text-align: center;
+            font-weight: bold;
+     }
+
+     .bg-mblue{
+        background-color: $medium-blue;
+        color: $white;
+        text-align: center;
+    }
+
+    .bg-gray
+    {
+        background-color: #f2f2f2;
+    }
+
+
+ .bg-lgreen{
+    background-color: $light-blue;
+    color: $white;
+    text-align: center;
+}
+
+}
+
+////////////////////// section-6 /////////////////////////////////////////////////////////
+
+.table2
+{
+    table, th, td {
+        border: 5px solid $white;
+        border-collapse: collapse;
+        padding: 15px;
+      }
+
+     .bg-blue{
+            background-color: $blue;
+            color: $white;
+            text-align: center;
+            font-weight: bold;
+     }
+
+     .bg-mblue{
+        background-color: $medium-blue;
+        color: $white;
+        text-align: center;
+    }
+
+    .bg-gray
+    {
+        background-color: #f2f2f2;
+    }
+
+
+ .bg-lgreen{
+    background-color: $light-blue;
+    color: $white;
+    text-align: center;
+}
+
+}
+
+
+
+.bg-img{
+    background-image: url('../../../assets/images/m5/img3.png');
+    width: 170px;
+    height: 64px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $white;
+}
+
+.bg-gray
+    {
+        background-color: #f2f2f2;
+    }
+
+////////////////////// section-6 /////////////////////////////////////////////////////////
+
+.table3
+{
+    margin: 10px;
+
+    table{
+        width: 400px;
+        height: 600px;
+       
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+      td{
+        vertical-align: top;
+      }
+
+     .bg-blue{
+            background-color: $blue;
+            color: $white;
+            text-align: center;
+            font-weight: bold;
+     }
+
+     .bg-mblue{
+        background-color: $medium-blue;
+        color: $white;
+        text-align: center;
+    }
+
+    .bg-gray
+    {
+        background-color: #f2f2f2;
+    }
+
+
+ .bg-lgreen{
+    background-color: $light-blue;
+    color: $white;
+    text-align: center;
+}
+}
+
+
+.box{
+   
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+
+.heading
+{
+    display: flex;
+    color: $white;
+    padding: 10px;
+    justify-content: center;
+}
+
+.content{
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    flex: 1;
+}
+
+.border-line{
+    border-right: 2px solid $blue;
+}
+
+.border-line-mblue{
+    border-right: 2px solid $medium-blue;
+}
+
+.border-line-lblue{
+    border-right: 2px solid $light-blue;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-left: 30px solid $blue;
+	border-bottom: 30px solid transparent;
+}
+.triangle-right-mblue
+{
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-left: 30px solid $medium-blue;
+	border-bottom: 30px solid transparent;
+}
+
+.triangle-right-lblue
+{
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-left: 30px solid $light-blue;
+	border-bottom: 30px solid transparent;
+}
+
+
+.txt
+{
+    width: 550px;
+}
+

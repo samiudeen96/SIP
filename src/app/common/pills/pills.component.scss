@@ -1,0 +1,84 @@
+@import"../../variable.scss";
+
+.nav-link{
+    background-color: white;
+    
+}
+
+
+.nav-link:nth-child(1){
+    // background-color: $blue;
+    border: 3px solid $blue;
+    color: $blue;
+}
+.nav-link:nth-child(2){
+    // background-color: $medium-blue;
+    border: 3px solid $medium-blue;
+    color: $medium-blue;
+}
+.nav-link:nth-child(3){
+    // background-color: $light-blue;
+    border: 3px solid $light-blue;
+    color: $light-blue;
+}
+
+.nav-link:nth-child(4){
+    // background-color: $green;
+    border: 3px solid $green;
+    color: $green;
+}
+.nav-link:nth-child(5){
+    // background-color: $yellow;
+    border: 3px solid $yellow;
+    color: $yellow;
+}
+.nav-link:nth-child(6){
+    // background-color: $gray33;
+    border: 3px solid $gray33;
+    color: $gray33;
+}
+
+.nav-link.active:nth-child(1)
+{
+    background-color: $blue;
+    color: $white;
+}
+
+.nav-link.active:nth-child(2)
+{
+    background-color: $medium-blue;
+    color: $white;
+}
+
+.nav-link.active:nth-child(3)
+{
+    background-color: $light-blue;
+    color: $white;
+}
+
+.nav-link.active:nth-child(4)
+{
+    background-color: $green;
+    color: $white;
+}
+
+.nav-link.active:nth-child(5)
+{
+    background-color: $yellow;
+    color: $white;
+}
+
+.nav-link.active:nth-child(6)
+{
+    background-color: $gray33;
+    color: $white;
+}
+
+
+.tab-content{
+
+    border: 2px solid gray;
+    max-width: 100%;
+    min-height: 100px;
+    background-color: #fff;
+}

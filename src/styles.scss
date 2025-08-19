@@ -1,0 +1,305 @@
+/* You can add global styles to this file, and also import other style files */
+@import "app/variable.scss";
+@import "~bootstrap/dist/css/bootstrap.css"; 
+
+@font-face {
+  font-family: HelveticaNeueLT;
+  src: url(assets/fonts/HelveticaNeueLTW07-55Roman.woff);
+}
+
+@font-face {
+  font-family: HelveticaNeueLTBold;
+  src: url(assets/fonts/HelveticaNeueLTW05-75Bold.woff);
+}
+
+@font-face {
+  font-family: HelveticaLTStdLight;
+  src: url(assets/fonts/HelveticaNeueLTW15-35Thin.woff);
+}
+
+body {
+  // background: url('../src/assets/images/home-bg.png');
+  // object-fit: cover;
+  // background-repeat: no-repeat;
+  margin: 0;
+  font-family: "HelveticaNeueLT", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  top: 0px !important;
+
+
+}
+
+.goog-te-banner-frame
+{
+  display: none;
+}
+
+// .container-customs
+// {
+//   margin-top: 90px;
+//     width: 96%;
+//     padding-right: var(--bs-gutter-x, 0.75rem);
+//     padding-left: var(--bs-gutter-x, 0.75rem);
+//     margin-right: auto;
+//     margin-left: auto;
+// }
+
+
+
+
+
+
+h1.outline,
+.outline-mar {
+  font-size: 8rem;
+  color: $light-green;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba($light-green, 0.4);
+  padding: 0;
+  margin-top: 20px;
+  line-height: 0.6;
+}
+.rel {
+  position: relative;
+}
+
+.gap-30{
+  gap: 30px;
+}
+
+.gap-10{
+  gap: 10px;
+}
+
+.outline-mar {
+  top: 0;
+  position: absolute;
+  line-height: normal;
+  margin-top: 0;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+
+
+.zindex-1 {
+  z-index: 1;
+}
+h1 {
+  font-size: 3rem;
+  color: $light-blue;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: $light-green;
+}
+
+h3 {
+  font-weight: bold;
+
+  color: $blue;
+}
+h5{
+  font-weight: bold;
+
+  color: $light-blue;
+}
+
+b,
+.bold,
+h1,
+h2 {
+  font-family: HelveticaNeueLTBold;
+}
+.btn-primary {
+  background-color: $light-green;
+  border: 1px solid darken($color: $light-green, $amount: 0.2);
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+  &a{
+    color: #fff;
+  }
+  
+  &:hover {
+    background-color: darken($color: $light-green, $amount: 0.5);
+    border: 1px solid darken($color: $light-green, $amount: 0.2);
+  }
+  &:focus {
+    background-color: darken($color: $light-green, $amount: 0.5);
+    border: 1px solid darken($color: $light-green, $amount: 0.2);
+    box-shadow: none;
+  }
+}
+
+.fcenter {
+  justify-content: center;
+  align-items: center;
+}
+.flex-1 {
+  flex: 1;
+}
+
+.f-italic{
+  font-style: italic;
+}
+
+.f-bold{
+  font-weight: bold;
+}
+
+
+
+
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.progress {
+  display: flex;
+  height: 0.3rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.instruction {
+  font-style: italic;
+  color: $yellow;
+}
+
+
+
+.primary{
+  color: $light-green;
+}
+.red{
+  color: $red;
+}
+.full-width{
+  max-width: 100%;
+}
+
+
+///////////////////////////// color-properties ///////////////////////////////////////
+
+.txt-white
+{
+  color: #fff;
+}
+
+.txt-blue
+{
+  color: $blue;
+}
+
+.bg-blue
+{
+  background-color: $blue;
+}
+
+.bg-mblue
+{
+  background-color: $medium-blue;
+}
+.bg-lblue
+{
+  background-color: $light-blue;
+}
+
+.bg-green
+{
+  background-color: $green;
+}
+
+.bg-lsblue
+{
+  background-color: #E8F1F5;
+}
+
+.bg-yellow
+{
+  background-color: $yellow;
+}
+.bg-red
+{
+  background-color: #990000;
+}
+
+
+// .bg-bgreen{
+//   background-color: #adc79b;
+// }
+
+.txt-yellow
+{
+  color: $yellow;
+}
+
+
+.txt-gray
+{
+  color: #A1D3CC;
+}
+
+.txt-green
+{
+  color: $green;
+}
+
+.txt-lblue
+{
+  color: $light-blue;
+}
+
+.txt-mblue
+{
+  color: $medium-blue;
+}
+
+.txt-red
+{
+  color: red;
+}
+
+.list-none li
+{
+    list-style: none;
+}
+
+
+.f-25
+{
+  font-size: 25px;
+}
+
+.f-20
+{
+  font-size: 20px;
+}
+
+.gap-50{
+  gap: 50px;
+}
+
+.gap-90{
+  gap: 90px;
+}
+
+.gap-100{
+  gap: 100px;
+}
+
+
+.no-ul li{
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: -30px;
+  margin-right: 0;
+}

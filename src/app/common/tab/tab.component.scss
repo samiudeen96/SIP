@@ -1,0 +1,58 @@
+@import "../../variable.scss";
+
+
+.tab-content {
+  // min-height: 460px;.
+  border:1px solid  $light-blue;
+  width: 100%;
+  min-height: 100px;
+  background-color: #fff;
+}
+
+.nav-link {
+  // color: $white;
+  
+  margin-left: 10px;
+  padding: 10px;
+}
+.nav-tabs
+{
+  border-bottom: 0;
+
+}
+.nav-link{
+  background-color: #fff;
+  color: $light-blue;
+  border-color: $light-blue; 
+  &:hover{
+    border-color: $light-blue;
+  }
+}
+.nav-link.active,
+.nav-item.show .nav-link {
+  // color: black;
+  // background-color: $white;
+  color: $white;
+  background-color: $light-blue;
+  border-color: $light-blue;
+
+}
+
+
+.fadeIn {
+  animation-name: fadeInAnimate;
+  animation-duration: 0.5s;
+  // animation-delay: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInAnimate {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

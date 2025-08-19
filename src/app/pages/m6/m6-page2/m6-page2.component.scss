@@ -1,0 +1,76 @@
+@import"../../../variable.scss";
+
+////////////////////// section-3 /////////////////////////////////////////////////////////
+.txt1,.txt2,.txt3,.txt4{
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
+  width: 79px;
+  color: $white;
+}
+
+.txt1{
+  top: 98px;
+  left: 6px;
+}
+
+.txt2{
+  top: 40px;
+  left: 163px;
+}
+.txt3{
+  top: 99px; 
+    left: 322px;
+}
+
+.txt4{
+  top: 183px;
+  left: 168px;
+}
+
+/////////////////////// section-10 /////////////////////////////////////////////////////////
+
+.table-2
+{
+
+    display: flex;
+    justify-content: center;
+
+    table, td, th {
+        border: 1px solid black;
+        padding: 10px;
+      }
+
+     
+      
+      table {
+        border-collapse: collapse;
+      }
+
+      .txt-blue
+      {
+          background-color: $blue;
+          color: #fff;
+
+      }
+
+      .bg-lgreen{
+          background-color: #7bd37b;
+      }
+
+      .bt-none, .br-none{
+        border-top-color: #fff;
+      }
+
+      
+}
+
+.hori
+{
+  transform: translate3d(0px, 0px, 0px);
+  left: 0px;
+  top: -0.2px 63px;
+  box-sizing: border-box;
+  position: fixed;
+  padding: 10px;
+}

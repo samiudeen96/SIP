@@ -1,0 +1,17 @@
+<div class="pills-container text ms-5">
+  <div class=" align-items-start">
+    <div>
+        <div class="nav d-flex gap-2 nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link  mt-3" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" 
+            aria-selected="true" (click)="pill(i)" *ngFor="let pd of data; let i = index" routerLinkActive="active">{{pd.name}}</button>
+           
+          </div>
+    </div>
+   <div class="tab-container mt-1 " *ngFor="let pd of data; let i = index">
+    <div class="tab-content" id="v-pills-tabContent" *ngIf="selectedPill == i" [innerHtml]="pd.content | safeHtml">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" ></div>
+      <div *ngIf="selectedPill == -1"></div>
+    </div>
+   </div>
+  </div>
+</div>

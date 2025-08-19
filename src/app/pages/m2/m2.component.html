@@ -1,0 +1,171 @@
+<app-breadcrumbs></app-breadcrumbs>
+<!--/////////////////////// section-1 /////////////////////////////////////////////////////////-->
+<div class="container mt-5 mb-5">
+  <h3 data-aos="fade-up" data-aos-duration="1000">Sales Compensation Program Management</h3>
+  <div class="instruction" data-aos="fade-up" data-aos-duration="2000">Hover over each of the components to learn more.</div>
+  <div class="d-flex justify-content-center mt-5">
+    <div class="rel" data-aos="fade-up" data-aos-duration="3000">
+      <img class="ring" src="assets/images/m1/ring.svg">
+      <div class="ring-cirlce1" (mouseover) = "tab(1)" (mouseout) = "close()">Plan</div>
+      <div class="ring-cirlce2" (mouseover) = "tab(2)" (mouseout) = "close()">Assess</div>
+      <div class="ring-cirlce3" (mouseover) = "tab(3)" (mouseout) = "close()">Design</div>
+      <div class="ring-cirlce4" (mouseover) = "tab(4)" (mouseout) = "close()">Administer</div>
+      <div class="ring-cirlce5" (mouseover) = "tab(5)" (mouseout) = "close()">Implement</div>
+      <div class="ins-txt1">Manage</div>
+      <div class="ins-txt2">Manage</div>
+      <div class="plan" *ngIf ="selectedContent == 1">
+        <p>Plan</p>
+  
+        <ol>
+          <li>Alignment of business strategy, GTM approach, sales coverage and organization design decisions</li>
+          <li>Positions defined consistently with clear accountability and behaviors</li>
+        </ol>
+      </div>
+
+      <div class="Assess" *ngIf ="selectedContent == 2">
+        <p>Assess</p>
+  
+        <ol>
+          <li>Collect sales force feedback</li>
+          <li>Analyze pay-for-performance, effectiveness</li>
+          <li>Compare plan results to appropriate market data (pay and practices)</li>
+          <li>Ongoing sales performance and operations reporting is performed</li>
+        </ol>
+      </div>
+
+      <div class="Design" *ngIf ="selectedContent == 3"><p>Design</p>
+        <ol>
+          <li>Align with compensation design principles</li>
+          <li>Clear line of sight between measures and outcomes</li>
+          <li>Measures are feasible</li>
+          <li>Plans are competitive with external market</li>
+          <li>Design includes cross functional input</li>
+        </ol>
+      </div>
+
+      <div class="Administer" *ngIf ="selectedContent == 4"><p>Administer</p>
+        <ol>
+          <li>Systems track and report on progress, metrics</li>
+          <li>Mid-year crediting or sales target adjustments reviewed through governance</li>
+          <li>Employee results communication and payment processing</li>
+        </ol> 
+      </div>
+
+      <div class="Implement" *ngIf ="selectedContent == 5"><p>Implement</p>
+        <ol><li>Plans, targets and territories determined prior to new fiscal year</li>
+        <li>Legal reviews</li>
+        <li>Administration system setup</li>
+        <li>Change and Communications Management</li>
+        <li>Governance</li></ol>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!--/////////////////////// section-2 /////////////////////////////////////////////////////////-->
+<div class="bg-lsblue mt-5 mb-5">
+<div class="container pt-5 pb-5">
+    <h3 data-aos="fade-up" data-aos-duration="1000">SIP Process Overview</h3>
+    <h5 data-aos="fade-up" data-aos-duration="1000">Below is an overview of the SIP process:</h5>
+    <p class="instruction pt-4" data-aos="fade-up" data-aos-duration="2000">Click each tab to know more.</p>
+  <div class="d-flex" data-aos="fade-up" data-aos-duration="3000">
+    <app-pills [data]="this.pillDetails"></app-pills>
+  </div>
+
+     <!-- <div class="table pt-3">
+        <table>
+            <tr>
+              <th class="text-center txt-white t-blue"><b>1. PLAN</b></th>
+              <th class="text-center txt-white t-mblue"><b>2. DESIGN</b></th> 
+              <th class="text-center txt-white t-lblue"><b>3. IMPLEMENT</b></th> 
+              <th class="text-center txt-white t-green"><b>4. ADMINISTER</b></th> 
+              <th class="text-center txt-white t-yellow"><b>5. ASSESS</b></th> 
+              <th class="text-center txt-white t-gray"><b>6. MANAGE</b></th> 
+             
+
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li>Timely BU strategy, GTM, coverage, and role design decisions</li>
+                  <li>Roles defined consistently with clear accountability and behavior</li>
+                  <li>Map all jobs according to Cargill Position Mapping Workbook</li>
+                </ul>
+              </td>
+
+              <td>
+                <ul>
+                  <li>All plans align with sales incentive best practices, GTM, and BU Strategy</li>
+                  <li>Designs provide line of sight between measures and behaviors</li>
+                  <li>All plan designs have feasible measures</li>
+                  <li>Cross functional input is incorporated into plan design</li>
+                  <li>Limit mid-year plan changes as best as possible</li>
+                </ul>
+              </td>
+
+              <td>
+                <ul>
+                  <li>All Plans, Quotas and Territories ready at the end of the prior plan period for Day 1 roll-out</li>
+                  <li>Strong automation to assist with system setup</li>
+                  <li>Simple plan documentation</li>
+                  <li>Cascading communication</li>
+                  <li>Sales management owns communicating how the plan supports strategy; others can communicate the details</li>
+                </ul>
+              </td>
+
+              <td>
+                <ul>
+                  <li>Automated systems eliminate manual feeds</li>
+                  <li>Operational systems aligned with and able to report on plan metrics</li>
+                  <li>Pay or quota adjustments approved by same mechanism as initial plans</li>
+                </ul>
+              </td>
+
+              <td>
+                <ul>
+                  <li>Ongoing and annual plan assessment includes sales force feedback, pay-for-performance and plan effectiveness analysis</li>
+                  <li>Plan assessment includes comparison to appropriate market data (pay and practices)</li>
+                  <li>Ongoing sales performance and operations reporting is performed</li>
+                </ul>
+              </td>
+
+              <td>
+                <ul>
+                  <li>Sales compensation program management is governed by single body</li>
+                  <li>Off-cycle design (short-term bonus, comp initiatives) subscribe to component guidelines, sound governance and approval</li>
+                  <li>Plan adjustments approved by same mechanism as initial plans</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+    </div> -->
+</div>
+</div>
+
+
+<!--/////////////////////// section-3 /////////////////////////////////////////////////////////-->
+<div class="container mt-5 mb-5">
+  <h3 data-aos="fade-up" data-aos-duration="1000">Well Designed SIP Leads to ROI</h3>
+  <h5 data-aos="fade-up" data-aos-duration="1000">Impacts of a well-designed SIP:</h5>
+   
+      <p class="instruction pt-4" data-aos="fade-up" data-aos-duration="2000">Click each tab to know more.</p>
+      
+     <div data-aos="fade-up" data-aos-duration="3000">
+      <app-tab [data]="this.tabDetails" ></app-tab>
+     </div>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

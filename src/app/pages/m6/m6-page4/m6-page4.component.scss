@@ -1,0 +1,250 @@
+@import"../../../variable.scss";
+
+
+.b-red{
+  border: 1px solid #990000;
+}
+
+.bg-gray0{
+  background-color: #46647b;
+}
+.b-gray0{
+  border: 1px solid #46647b;
+}
+
+.bg-yellow{
+  background-color:#e9cd49;
+}
+.b-yellow{
+  border: 1px solid #e9cd49;
+}
+
+.bg-grey{
+  background-color: #b4b4b4;
+}
+.b-grey{
+  border: 1px solid #b4b4b4;
+}
+
+.bgreen
+{
+  border:1px solid #a9d08e;
+}
+.bg-bgreen{
+  background-color: #a9d08e;
+  color: $white;
+}
+.heading
+{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.content
+{
+  width: 100%;
+}
+
+/////////////////////// section-2 /////////////////////////////////////////////////////////
+.title-box{
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $light-blue;
+  color: #FFFFFF;
+  height: 150px;
+}
+/////////////////////// section-2 /////////////////////////////////////////////////////////
+
+.table01{
+
+  display: flex;
+  justify-content: flex-end;
+
+  table, td, th {
+    border: 1px solid black;
+    text-align: center;
+  }
+  td{
+    width: 100px;
+  }
+  .bg-lpurple{
+    background-color: #8497b0;
+    color: $white;
+  }
+  .bg-bgreen{
+    background-color: #a9d08e;
+    color: $white;
+  }
+  
+  .bg-red{
+    background-color: #c00000;
+    color: $white;
+  }
+  
+  .bg-yellow{
+    background-color: #ffd966;
+   
+  }
+  
+  .bg-lgray{
+    background-color: #bfbfbf;
+    
+  }
+}
+
+.table0{
+  table, td, th {
+    border: 1px solid black;
+  }
+
+  th,td{
+      text-align: center;
+      background-color: $white;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+
+
+ 
+.bg-gray{
+  background-color: #808080;
+  color: $white;
+}
+
+.bg-egray{
+  background-color: #404040;
+  color: $white;
+}
+
+.bg-gray1{
+  background-color: #595959;
+  color: $white;
+}
+
+.bg-purple{
+  background-color: #305496;
+  color: $white;
+}
+
+.bg-lpurple{
+  background-color: #8497b0;
+  color: $white;
+}
+
+
+
+.bg-sblue{
+  background-color: #ddebf7;
+}
+
+.bg-bgreen{
+  background-color: #a9d08e;
+  color: $white;
+}
+
+.bg-red{
+  background-color: #c00000;
+  color: $white;
+}
+
+.bg-yellow{
+  background-color: #ffd966;
+}
+
+.bg-lgray{
+  background-color: #bfbfbf;
+}
+
+.bg-grad{
+  background-image: linear-gradient(to right, #c00000 , #ffd966);
+  color: $white;
+}
+
+}
+
+////////////////////// section-2 /////////////////////////////////////////////////////////
+.triangle-right1{
+  width: 0;
+  height: 0;
+  border-top: 90px solid transparent;
+  border-left: 40px solid #279989;
+  border-bottom: 90px solid transparent;
+}
+
+.para{
+  background-color: $blue;
+  color: $white;
+  padding: 20px;
+  border-radius: 0px 30px 0px 30px ;
+  width: 300px;
+}
+
+
+
+////////////////////// section-4 /////////////////////////////////////////////////////////
+.box-border{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 20px;
+    border: 3px solid $blue;
+}
+
+
+  /////////////////////// section-9 /////////////////////////////////////////////////////////
+ .table1
+ {
+    table, th, td {
+        border: 3px solid $white;
+        border-collapse: collapse;
+        vertical-align: top;
+        padding: 10px;
+        
+      }
+
+      th{
+          text-align: center;
+          color: $white;
+      }
+
+      td{
+        background-color: #E8F1F5;
+        text-align: start;
+      }
+    
+    .t-blue
+    {
+      background-color: $blue;
+    }
+    
+    .t-mblue
+    {
+      background-color: $medium-blue;
+    }
+    
+    .t-lblue
+    {
+      background-color: $light-blue;
+    }
+    
+    .t-green
+    {
+      background-color: $green;
+    }
+    
+    .t-yellow
+    {
+      background-color: $light-green;
+    }
+    
+    .t-gray
+    {
+      background-color: $gray33;
+    }
+ }

@@ -1,0 +1,285 @@
+@import"../../../variable.scss";
+
+
+/////////////////////// section-1 /////////////////////////////////////////////////////////
+.box-txt1,.box-txt2,.box-txt3,.box-txt4
+{
+    position: absolute;
+    color: $white;
+}
+
+.box-txt1{
+    top: 101px;
+    left: 320px;
+}
+
+.box-txt2{
+    top: 188px;
+    left: 260px;
+}
+
+.box-txt3{
+    top: 275px;
+    left: 185px;
+}
+
+.box-txt4{
+    top: 360px;
+    left: 130px;
+}
+
+.list1,.list2,.list3,.list4
+{
+    position: absolute;
+}
+
+.list1{
+    top: 100px;
+    left: 515px;
+}
+
+.list2{
+    top: 188px;
+    left: 452px;
+}
+
+.list3{
+    top: 277px;
+    left: 389px;
+}
+
+.list4{
+    top: 364px;
+    left: 368px;
+}
+
+
+
+
+/////////////////////// section-2 /////////////////////////////////////////////////////////
+.list-1 {
+    box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+    padding: 20px;
+    border: 3px solid #005F86;
+    width: 400px;
+
+}
+
+
+.list-1 ul li{
+    list-style-type: '✔';
+
+}
+
+
+/////////////////////// section- 5 /////////////////////////////////////////////////////////
+.box{
+    // 
+    box-shadow: 0px 0px 18px #0000002E;
+    width: 300px;
+    background-color: $white;
+}
+
+.header,.header2,.header3,.header4
+{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}
+
+.header
+{
+    box-shadow: 0px 7px 11px #00608670;
+}
+
+.header2{
+    box-shadow: 0px 7px 11px #00758259;
+}
+
+.header3
+{
+    box-shadow: 0px 7px 11px #27998a5b;
+}
+
+.header4{ 
+    box-shadow: 0px 7px 11px #daab004d;
+}
+
+.content{
+    padding: 20px;
+    
+}
+
+
+/////////////////////// section-4 /////////////////////////////////////////////////////////
+
+.card-container{
+    background-color: #FFFFFF;
+    width: 280px;
+    height: 420px;
+    overflow-y: hidden;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
+
+
+}
+
+.bg-box{
+    width: 310px;
+    height: 230px;
+    margin-top: -215px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 0px 0px 20px 20px ;
+}
+
+/////////////////////// section-5 /////////////////////////////////////////////////////////
+
+.table1{
+    table, td, th {
+        border: 1px solid black;
+      }
+
+      td{
+          vertical-align: top;
+          padding: 5px;
+         
+      }
+    
+     
+    
+      th{
+          padding: 15px;
+      }
+      
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .bg-blue{
+          background-color: $blue;
+          font-weight: bold;
+          color: $white;
+      }
+
+      .bg-mblue{
+        background-color: $medium-blue;
+        font-weight: bold;
+        color: $white;
+    }
+
+    .bg-lblue{
+        background-color: $light-blue;
+        font-weight: bold;
+        color: $white;
+    }
+
+    .bg-yellow{
+        background-color: $yellow;
+        font-weight: bold;
+        color: $white;
+    }
+
+    .cross li{
+        list-style: '✖';
+    }
+}
+
+////////////////////// section-7 /////////////////////////////////////////////////////////
+.box-border{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 20px;
+    border: 3px solid $blue;
+    background-color: $white;
+}
+
+////////////////////// section-8 /////////////////////////////////////////////////////////
+.f-italic{
+    font-style: italic;
+}
+
+
+
+
+////////////////////// section-14 /////////////////////////////////////////////////////////
+.triangle-right1{
+    width: 0;
+    height: 0;
+    border-top: 90px solid transparent;
+    border-left: 40px solid #279989;
+    border-bottom: 90px solid transparent;
+}
+
+.list-type{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+}
+
+.border-dashed
+{
+    border-style: dashed;
+  border-color: $yellow;
+  padding: 20px;
+  width: 400px;
+}
+
+
+
+///new
+
+.card-content{
+    overflow-y: auto;
+    height: 290px;
+
+    ul{
+        margin-bottom: 0px;
+    }
+}
+
+.stackdisc::-webkit-scrollbar-track {
+
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  
+    border-radius: 10px;
+  
+    background-color: #b3cfdb;
+  
+  }
+  
+  
+  
+  .stackdisc::-webkit-scrollbar {
+  
+    width: 10px;
+  
+    background-color: #679fb6;
+  
+    border-radius: 20px;
+  
+  
+  
+  
+  }
+  
+  
+  
+  .stackdisc::-webkit-scrollbar-thumb {
+  
+    border-radius: 10px;
+  
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  
+    background-color: rgb(255, 255, 255);
+  
+  
+  
+  
+  }

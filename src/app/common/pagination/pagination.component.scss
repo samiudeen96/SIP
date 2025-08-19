@@ -1,0 +1,142 @@
+@import"../../variable.scss";
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+
+
+ .bg-color{
+     background-color: $white;
+     box-shadow: rgba(0, 0, 0, 0.116) 0px 2px 4px 0px inset;
+ }
+
+.page-nav
+{
+  justify-content: space-between;
+}
+
+ .next{
+   cursor: pointer;
+   color: #333;
+   p{
+     margin-bottom: 0;
+     margin-right: 10px;
+   }
+ }
+
+
+
+// .bounce-left {
+//   animation: bounce-left 0s infinite;
+// }
+
+// @keyframes bounce-left {
+//   0%,
+//   20%,
+//   50%,
+//   80%,
+//   100% {
+//     -ms-transform: translateX(0);
+//     transform: translateX(0);
+//   }
+//   40% {
+//     -ms-transform: translateX(-30px);
+//     transform: translateX(-30px);
+//   }
+//   60% {
+//     -ms-transform: translateX(-15px);
+//     transform: translateX(-15px);
+//   }
+// }
+
+
+// .bounce-right {
+//   animation: bounce-right 0s infinite;
+// }
+
+// @keyframes bounce-right {
+//   0%,
+//   20%,
+//   50%,
+//   80%,
+//   100% {
+//     -ms-transform: translateX(0);
+//     transform: translateX(0);
+//   }
+//   40% {
+//     -ms-transform: translateX(30px);
+//     transform: translateX(30px);
+//   }
+//   60% {
+//     -ms-transform: translateX(15px);
+//     transform: translateX(15px);
+//   }
+// }
+
+
+
+// .bounce-left:hover {
+//   animation: bounce-left 1s infinite;
+// }
+
+// .bounce-right:hover {
+//   animation: bounce-right 1s infinite;
+// }
+
+
+
+
+.pre-arrow {
+  // animation: bounce-right 1s infinite;
+
+  
+
+
+  &:hover {
+    .action {
+      
+      color: $medium-blue;
+    }
+    .icon {
+      animation-name: movement;
+      animation-duration: 0.3s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+@keyframes movement {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+
+.nxt-arrow {
+  // animation: bounce-right 1s infinite;
+
+  
+
+
+  &:hover {
+    .action {
+      
+      color: $medium-blue;
+    }
+    .icon {
+      animation-name: movement;
+      animation-duration: 0.3s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+@keyframes movement {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}

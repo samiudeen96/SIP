@@ -1,0 +1,128 @@
+@import"../../../variable.scss";
+
+
+
+////////////////////////////// section-4//////////////////////////////
+.diagram{
+
+    // background-color: $white;
+    // border: 1px solid black;
+
+    .arr1{
+        position: absolute;
+        top: 19px;
+        left: 267px;
+    }
+
+    .arr2{
+        position: absolute;
+        top: 74px;
+        left: 267px;
+    }
+
+    .arr3{
+        position: absolute;
+        top: 126px;
+        left: 267px;
+    }
+
+    .arr4{
+        position: absolute;
+        top: 180px;
+        left: 267px;
+    }
+
+
+
+.txt1
+{
+    // background-color: $blue;
+    // color: #FFF;
+    // margin: 10px;
+    // padding: 10px;
+    // border-radius: 5px;
+    // text-align: center;
+    background-color: $blue;
+    color: #FFF;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+}
+
+.txt3
+{
+    background-color: $blue;
+    color: #FFF;
+    margin: 10px 10px 10px 160px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+   
+}
+
+.t2
+{
+    // background-color: #bfbfbf;
+    // margin: 10px;
+    // padding: 10px;
+    // border-radius: 5px;
+    // text-align: center;
+    background-color: #bfbfbf;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 233px;
+    font-weight: bold;
+    
+
+}
+.txt2
+{
+    transform: rotate(-90deg);
+    margin-top: -135px;
+    margin-left: 150px;
+}
+
+.pl-150
+{
+    padding-left: 220px;
+}
+}
+.box1
+{
+  margin: 10px;
+  border: 1px solid $medium-blue;
+  background-color: $white;
+  padding: 10px;
+  width: 700px;
+
+}
+
+
+
+
+
+.box2
+{
+  margin: 10px;
+  border: 1px solid red;
+  background-color: $white;
+  padding: 10px;
+  width: 300px;
+}
+
+.b-blue{
+    border: 1px solid $medium-blue;
+    background-color: $white;
+}
+
+.b-red
+{
+    border: 1px solid red;
+}
+
+////////////////////////////// section-5//////////////////////////////

@@ -1,0 +1,417 @@
+@import "../../../variable.scss";
+//////////////////// section-1 ///////////////////////////
+.border-g
+{
+    border-radius: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-lb
+{
+    border-radius: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hw{
+    height: 100px;
+    width: 100px;
+}
+
+.h-120
+{
+  height: 200px;
+//   width: 100px;
+}
+
+.h-90
+{
+  height: 120px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.num
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background-color: $yellow;
+    top: -28px;
+    left: 0px;
+    border-radius: 5px;
+}
+
+.num1
+{ 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background-color: #b8bfbf;
+    top: -28px;
+    left: 0px;
+    border-radius: 5px;
+}
+
+.flex-container{
+    
+    border: 2px solid $blue;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+
+//////////////////// section-2 ///////////////////////////
+
+.table1
+{
+    table, td, th {
+        border: 3px solid $white;
+      }
+      th,td{
+          padding: 10px;
+      }
+      
+      table {
+        width: 450px;
+        height: 350px;
+        border-collapse: collapse;
+      }
+
+      .bg-mblue
+      {
+          background-color: $light-blue;
+      }
+
+      td{
+      
+          background-color: #E8F1F5;
+    
+      }
+}
+
+.gap
+{
+    gap: 20px;
+}
+
+.h-333{
+    height: 333px;
+}
+
+ 
+.triangle-right1 {
+    width: 0;
+    height: 0;
+    border-top: 90px solid transparent;
+    border-left: 40px solid $light-blue;
+    border-bottom: 90px solid transparent;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-left: 30px solid $light-blue;
+	border-bottom: 30px solid transparent;
+}
+
+.box{
+    width: 160px;
+    height: 90px;
+    background-color: $light-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.gap-20
+{
+    gap: 20px;
+}
+
+.para{
+    width: 350px;
+}
+
+
+//////////////////// section-3 ///////////////////////////
+
+.table2{
+
+    table, th, td {
+        border: 2px solid white;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+
+      th{
+          background-color: $light-blue;
+          color: #fff;
+      }
+
+      td{
+        background-color: #E8F1F5;
+    }
+
+    .border-none
+{
+  background-color: #fff;
+    border-top-color: #fff;
+    border-left-color: #fff;
+}
+
+.bg-mblue
+{
+    background-color: $medium-blue;
+    text-align: center;
+}
+.bg-lblue
+{
+    background-color: $light-blue;
+    text-align: center;
+}
+.bg-green
+{
+    background-color: $green;
+    text-align: center;
+}
+}
+
+
+//////////////////// section-5 ///////////////////////////
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.txt13,.txt14
+{
+    position: absolute;
+
+}
+
+.txt1{
+    top: 60px;
+    left: -90px;
+    width: 98px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.txt2{
+    top: 290px;
+    left: -90px;
+    width: 98px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.txt3{
+    top: 11px;
+    left: 360px;
+    width: 98px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.txt4{
+    top: 132px;
+    left: 360px;
+    width: 98px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.txt5{
+    top: 245px;
+    left: 133px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.txt6{
+    top: 245px;
+    left: 307px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.txt7{
+    top: 245px;
+    left: 472px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.txt8{
+       top: 245px;
+    left: 636px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.txt9{
+    top: 367px;
+    left: 198px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.txt10{
+    top: 367px;
+    left: 310px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.txt11{
+    top: 367px;
+    left: 423px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.txt12{
+    top: 367px;
+    left: 536px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.txt13{
+    top: 433px;
+    left: 198px;
+}
+
+.txt14{
+    top: 445px;
+    left: 451px;
+}
+
+///new
+
+.t_shade{
+    text-shadow: -1px -1px 0 #0477bd, 1px -1px 0 #0477bd, -1px 1px 0 #0477bd, 1px 1px 0 #0477bd;
+}
+
+
+//////////////////// section-6 ///////////////////////////
+
+.txt01,.txt02,.txt03,.txt04,.txt05,.txt06,.txt07
+{
+    position: absolute;
+}
+
+.txt01{
+    top: 132px;
+    left: -47px;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.txt02{
+    top: 25px;
+    left: 238px;
+}
+
+
+.txt03{
+    top: 122px;
+    left: 238px;
+}
+
+.txt04{
+    top: 220px;
+    left: 109px;
+}
+
+.txt05{
+    top: 220px;
+    left: 245px;
+}
+
+.txt06{
+    top: 220px;
+    left: 380px;
+}
+
+.txt07{
+    top: 283px;
+    left: 193px;
+    font-weight: bold;
+}
+
+
+//////////////////// section-7 ///////////////////////////
+
+.txt001,.txt002,.txt003,.txt004,.txt005,.txt006,.txt007,.txt008,.txt009
+{
+    position: absolute;
+}
+
+.txt001{
+    top: 43px;
+    left: -80px;
+}
+
+.txt002{
+    top: 107px;
+    left: -53px;
+}
+
+.txt003{
+    top: 2px;
+    left: 70px;
+}
+
+.txt004{
+    top: 30px;
+    left: 60px;
+    color: #fff;
+}
+
+.txt005{
+    top: 63px;
+    left: 40px;
+    width: 151px;
+    text-align: center;
+}
+
+.txt006{
+    top: 117px;
+    left: 44px;
+    width: 143px;
+    text-align: center;
+}
+
+.txt007{
+    top: 176px;
+    left: 90px;
+}
+
+.txt008{
+    top: 220px;
+    left: 84px;
+} 
+
+.txt009{
+    top: 260px;
+    left: 60px;
+}

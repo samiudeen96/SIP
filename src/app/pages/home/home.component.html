@@ -1,0 +1,86 @@
+<div class="bg">
+    <div class="container">
+        <app-header></app-header>
+    </div>
+
+    
+    <div class="container mt-5">
+        <div  class="img1">
+            <img class="img-abs1" src="assets/images/half_circle.png">
+        </div>
+
+        
+
+        <div class="row">
+            <div class="col-lg-6 mt-150" >
+                <div  class="title" data-aos="fade-up" data-aos-duration="1000">
+                    <p >Welcome To</p>
+                    <h1>Sales Incentive Program</h1>
+                    <p>The Sales Incentive Program is a global initiative to elevate Cargill’s sales incentive designs
+                        and
+                        practices using common frameworks and principles to better support our customer growth strategy
+                    </p>
+                </div>
+
+
+                <div class="btn" (click)="goToPage('m1')" data-aos="fade-up" data-aos-duration="2000">
+                    Get Started
+                </div>
+
+                <div class="d-flex txt-bounce" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="rel">
+                        <div class="arrow-body">
+                            <span class="arrow-1 arrow"></span>
+                            <span class="arrow-2 arrow"></span>
+                            <span class="arrow-3 arrow"></span>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <p class="instruction pt-5 ps-3">Scroll down to know more about each topic.</p>
+                    </div>
+                </div>
+                <div class="img2">
+                    <img class="img-abs2" src="assets/images/triangle.png">
+                    
+                </div>
+
+                <!--///////////////// pages-links ///////////////////////////////////////-->
+                <div class="nav pt-5 pb-5 mt-150">
+
+
+                    <ul class="parent-list ">
+                        <li class="" *ngFor="let item of this.service.menuDetails; let i = index"  data-aos="fade-up" data-aos-duration="1000">
+
+                            <div class="pt-4">{{item.volumeTitle}}</div>
+                            <!-- <div class="txt-l_blue">{{item.intro}}</div> -->
+                            <ul class="list">
+                                <li *ngFor="let menu of item.pages; let j = index">
+                                    <a class="txt-l_blue" routerLink="{{menu.path}}"> {{menu.title}}
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                        </li>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                       
+                        
+                    </ul>
+                   
+                </div>
+                <!--///////////////// pages-links ///////////////////////////////////////-->
+
+            </div>
+            <div class="col-lg-6 fixed-content text-center d-flex ">
+                <div  class="d-none d-md-block" >
+                    <img  class="" src="assets/images/man.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- </div > -->

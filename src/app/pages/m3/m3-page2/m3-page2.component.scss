@@ -1,0 +1,71 @@
+@import "../../../variable.scss";
+
+//////////////////// section-2 ///////////////////////////
+
+table, th, td { 
+    border: 2px solid $white;
+    border-collapse: collapse;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .bg-blue
+{
+  background-color: $blue;
+  text-align: center;
+  color: #fff;
+}
+.bg-lblue
+{
+  background-color: $light-blue;
+  text-align: center;
+  color: #fff;
+}
+.bg-mblue
+{
+    background-color: $medium-blue;
+  text-align: center;
+  color: #fff;
+}
+
+.bg-green
+{
+  background-color: $green;
+  text-align: center;
+  color: #fff;
+}
+
+// .bg-lsblue
+// {
+//   background-color: #E8F1F5;
+// }
+
+//////////////////// section-4 ///////////////////////////
+
+.table2
+{
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .t-center
+  {
+    text-align: center;
+    font-weight: bold;
+    
+  }
+}
+.card {
+  width: 250px;
+  min-height: 190px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 14px 26px rgb(0 0 0 / 10%);
+
+  .card-text {
+    padding-top: 20px;
+  }
+}
+
+

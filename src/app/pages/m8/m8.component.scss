@@ -1,0 +1,42 @@
+@import "../../variable.scss";
+
+table, td, th {
+    border: 3px solid white;
+    padding: 10px;
+  }
+
+  td{
+    vertical-align: top;
+    width: 400px;
+  }
+
+  .bg-green{
+    background-color: #e4f4c6;
+  }
+
+  .bg-peach
+  {
+    background-color: #fed2c6;
+  }
+
+  .bg-sblue{
+      background-color: #b3f9ff;
+  }
+
+  .bg-sblue1{
+      background-color: #ccf2ed;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .txt-box{
+    border: 3px;
+    border-style: dashed;
+    border-color: $yellow;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
